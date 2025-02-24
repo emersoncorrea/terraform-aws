@@ -11,14 +11,14 @@ AWS - Provedor de infraestrutura
 
 
 Estrutura do Projeto:
-/
-|-- infra/
-|   |-- main.tf             # Definição da infraestrutura AWS
-|   |-- user_data.sh        # Script de inicialização da instância EC2
-|-- docker-compose.yml      # Configuração do ambiente Docker
-|-- Dockerfile             # Construção da imagem Terraform
-|-- entrypoint.sh          # Script de inicialização do contêiner
-|-- README.md              # Documentação do projeto
+
+
+main.tf             # Definição da infraestrutura AWS
+user_data.sh        # Script de inicialização da instância EC2
+docker-compose.yml      # Configuração do ambiente Docker
+Dockerfile             # Construção da imagem Terraform
+entrypoint.sh          # Script de inicialização do contêiner
+README.md              # Documentação do projeto
 
 Configuração da Infraestrutura
 
